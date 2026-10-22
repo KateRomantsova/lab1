@@ -1,6 +1,6 @@
 from PIL import Image, ExifTags
 
-path = "my_photo.jpg"   # поставте ім'я свого оригінального знімка
+path = "my_photo.jpg"  
 
 exif = Image.open(path).getexif()
 data = dict(exif)
